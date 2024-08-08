@@ -1,0 +1,3 @@
+- 사용 패키지: langchain, langchain_community, ...
+- 개발 환경: pipenv
+- pdf를 넣고 그 내부의 내용을 요약해서 한국어로 번역해서 출력하도록 설정
