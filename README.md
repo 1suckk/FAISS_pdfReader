@@ -1,8 +1,9 @@
 - 사용 패키지: langchain, langchain_community, ...
 - 개발 환경: pipenv
 - pdf를 넣고 그 내부의 내용을 요약해서 한국어로 번역해서 출력하도록 설정
+- pdf 출처: 하나증권의 태양광 관련 리포트 pdf
 
-- 출력 예시
+- 출력 예시<br>
 PS C:\Users\cws\vector> & C:/Users/cws/.virtualenvs/vector-V2IsdSCC/Scripts/python.exe c:/Users/cws/vector/main.py
 hi
 {'query': 'Give me the gist of ReAct in 10 sentences translated to Korean', 'result': ' ReAct는 전력수요 상승에 대비하기 위해 정부가 추진하는 정책으
