@@ -9,7 +9,7 @@ from langchain_openai import OpenAI
 
 if __name__ == '__main__':
     print('hi')
-    pdf_path = 'C:/Users/cws/vector/UW_240524.pdf'
+    pdf_path = 'C:/Users/cws/vector/UW_240524.pdf' # 경로는 각자의 로컬에 따라 다름
     loader = PyPDFLoader(file_path=pdf_path)
     documents = loader.load()
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=30, separator="\n")
